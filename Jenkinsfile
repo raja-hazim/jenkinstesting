@@ -12,7 +12,7 @@ pipeline {
               sh 'kubectl version'
               // sh 'kubectl run nginx --image=nginx --restart=Never'
               sh 'pwd'  
-               
+              sh 'ls -lrt' 
         }
     }
     }
