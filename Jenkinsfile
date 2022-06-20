@@ -10,8 +10,8 @@ pipeline {
               sh 'az account show'
               sh 'az aks get-credentials -g Hzm_RG -n TestAKS'
               sh 'kubectl version'
-              sh 'kubectl run nginx --image=nginx --restart=Never'
-                
+              #sh 'kubectl run nginx --image=nginx --restart=Never'
+              sh 'pwd'  
                
         }
     }
